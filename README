@@ -1,3 +1,13 @@
 Pracitice app with Open Id authentication.
 
 Based on https://youtu.be/QG0Pt6TOZIY.
+
+Deprecated :(.
+
+In application.properties:
+
+security.oauth2.client.client-id=
+security.oauth2.client.client-secret=
+security.oauth2.client.access-token-uri=https://github.com/login/oauth/access_token
+security.oauth2.client.user-authorization-uri=https://github.com/login/oauth/authorize
+security.oauth2.resource.user-info-uri=https://api.github.com/user
